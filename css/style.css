@@ -167,16 +167,16 @@ h5.modal-title {
 
 /*-- banner-slider --*/
 .w3layouts-banner-top{
-    background: url(../images/1.jpg) no-repeat 0px 0px;
+    background: url(../images/1.jpeg) no-repeat 0px 0px;
     background-size: cover;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	-moz-background-size: cover;
-	min-height:700px;
+	min-height:850px;
 }
 .w3layouts-banner-top1{
-    background: url(../images/6.jpg) no-repeat 0px 0px;
+    background: url(../images/2.jpeg) no-repeat 0px 0px;
     background-size: cover;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -184,7 +184,7 @@ h5.modal-title {
 	-moz-background-size: cover;
 }
 .w3layouts-banner-top2{
-    background: url(../images/3.jpg) no-repeat 0px 0px;
+    background: url(../images/3.jpeg) no-repeat 0px 0px;
     background-size: cover;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -192,7 +192,7 @@ h5.modal-title {
 	-moz-background-size: cover;
 }
 .w3layouts-banner-top3{
-    background: url(../images/4.jpg) no-repeat 0px 0px;
+    background: url(../images/4.jpeg) no-repeat 0px 0px;
     background-size: cover;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -200,7 +200,7 @@ h5.modal-title {
 	-moz-background-size: cover;
 }
 .w3layouts-banner-top4{
-    background: url(../images/7.jpg) no-repeat 0px 0px;
+    background: url(../images/5.jpeg) no-repeat 0px 0px;
     background-size: cover;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
