@@ -8,6 +8,14 @@ function YapsConfig($stateProvider, $urlRouterProvider) {
             url : '/home',
             templateUrl : 'js/home/home.html'
         })
+        .state('student', {
+            url : '/student',
+            templateUrl : 'js/home/forStudent.html'
+        })
+        .state('socialEnterprises', {
+            url : '/socialEnterprises',
+            templateUrl : 'js/home/forSocialEnterprises.html'
+        })
         .state('about', {
             url : '/about',
             templateUrl : 'js/about/about.html'
