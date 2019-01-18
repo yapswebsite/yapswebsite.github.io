@@ -24,6 +24,10 @@ function YapsConfig($stateProvider, $urlRouterProvider) {
             url : '/services',
             templateUrl : 'js/services/services.html'
         })
+        .state('Opportunities', {
+            url : '/Opportunities',
+            templateUrl : 'js/Opportunities.html'
+        })
         .state('contact', {
             url : '/contact',
             templateUrl : 'js/contact/contact.html'
