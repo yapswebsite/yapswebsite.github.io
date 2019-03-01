@@ -1567,3 +1567,12 @@ ul.footer-social-icons li {
 }
 
 /*-- //Responsive Design --*/
+
+.upcoming-btn {
+	background: transparent;
+}
+
+.upcoming-btn a:hover {
+	background: #146fa0;
+	color: white;
+}
