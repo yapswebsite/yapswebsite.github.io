@@ -36,3 +36,13 @@ function YapsConfig($stateProvider, $urlRouterProvider) {
 }
 
 yapsApp.config(YapsConfig);
+
+window.addEventListener("scroll", function() {
+    var { scrollY } = window
+    if(scrollY > 140) {
+        document.getElementById("right-banner").style.top = "20px";
+    } else {
+        document.getElementById("right-banner").style.top = "160px";
+
+    }
+})
