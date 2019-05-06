@@ -1623,3 +1623,32 @@ ul.footer-social-icons li {
 		right: 0;
 	}
 }
+
+.partner-image {
+	width: 300px;
+	height: auto;
+}
+
+.partners-container {
+	display: grid;
+	width: 100%;
+	grid-template-columns: 1fr 1fr 1fr;
+	justify-items: center;
+}
+
+.partner-type {
+	font-family: 'Source Sans Pro';
+	font-weight: bold;
+	margin-bottom: 24px;
+	font-size: 20px;
+}
+
+@media(max-width: 970px){
+	.partners-container {
+		grid-template-columns: 100%;
+	}
+
+	.partner-type {
+		margin-top: 34px;
+	}
+}
