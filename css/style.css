@@ -1652,3 +1652,15 @@ ul.footer-social-icons li {
 		margin-top: 34px;
 	}
 }
+
+.blog-content {
+	width: 55%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+@media(max-width: 970px) {
+	.blog-content {
+		width: 95%;
+	}
+}
