@@ -1654,13 +1654,31 @@ ul.footer-social-icons li {
 }
 
 .blog-content {
-	width: 55%;
-	margin-left: auto;
-	margin-right: auto;
+	display: grid;
+	width: 100%;
+	grid-template-columns: 50% 50%
+}
+
+.blog-left, .blog-right {
+	padding: 24px
+}
+
+.blog-left summary, .blog-right summary {
+	display: inline;
+	font-size: 24px;
+	font-family: 'Source Sans Pro';
+	font-weight: bold;
+}
+
+.blog-left summary::before, .blog-right summary::before {
+	content: '';
+	font-family: 'Font Awesome 5 Free';
+	font-weight: 900;
+	padding-right: 12px;
 }
 
 @media(max-width: 970px) {
 	.blog-content {
-		width: 95%;
+		display: block;
 	}
 }
